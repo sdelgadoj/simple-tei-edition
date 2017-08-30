@@ -26,5 +26,46 @@
            <item>Tres</item>
          </list>
       </body>
+      <body>
+         <div>
+            <head>OATMEAL BREAD</head>
+            <list>
+               <item>2 cups oatmeal</item>
+               <item>1 large spoonful lard</item>
+               <item>1 cup dark molasses</item>
+               <item>1 1/2 cups hot water</item>
+               <item>2 cups cold water</item>
+               <item>1 yeast cake</item>
+               <item>White flour enough to make soft dough</item>
+            </list>
+            <quote>MISS LOTHROP</quote>
+         </div>
+         <div>
+            <head>OATMEAL CAKE
+            </head>
+            <list>
+               <item>1 cup oatmeal</item>
+               <item>2 cups boiling water</item>
+               <item>2 teaspoons butter</item>
+               <item>1/2 cup molasses</item>
+               <item>Let these soak together for one hour</item>
+               <note>mix 1 yeast cake in 1/2 cup luke warm water and add to first mixture</note>
+               <item>4 1/2 cups of flour sifted and added</item>
+               <item>Let it raise and bake</item>
+            </list>
+         </div>
+         <div>
+            <head>BRAN BREAD</head>
+            <list>
+               <item>5 cups whole what flour</item>
+               <item>4 cups Educator bran</item>
+               <item>2 1/2 cups molasses</item>
+               <item>2 1/2 cups milk</item>
+               <item>1 teaspoonful of salt</item>
+               <item>1 teaspoonful soda</item>
+               <item>Bake in moderate oven</item>
+            </list>
+         </div>
+      </body>
   </text>
 </TEI>

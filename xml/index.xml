@@ -1,71 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Un poema sobre los Llanos Orientales</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>
+            <p>Fragmento de un poema de primera mitad del siglo XX</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Stuff</p>
+            <p>Autor: Eduardo Carranza</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
-  <text>
+   <text>
       <body>
-         <p>I still don't get it</p>
-         <header>STUFF</header>
-         <list>
-           <item>Uno</item>
-           <item>Dos</item>
-           <item>Tres</item>
-         </list>
+         <fw type="pageNumber" place="above">121</fw>
+         <div>
+         <head>SE CANTA A LOS LLANOS DE LA PATRIA EN METAFORA DE MUCHACHA</head>
+          </div>
+         <note>A Fernando Quiñones</note>
+         <div>
+         <lg>
+            <l>Te hablo como un enamorado</l>
+            <l>habla sencillamente a una muchacha:</l>
+            <l>ven, siéntate a mi lado, dulce tierra,</l>
+            <l>señorita vestida de cocuyos;</l>
+            <l>ven con tu traje de organdí florido</l>
+            <l>donde el cielo es apenas un bordado;</l>
+            <l>ven y que yo te toque y te descubra</l>
+            <l>secretos territorios, dulces minas;</l>
+            <l>ven a mis brazos de jinete joven</l>
+            <l>que oye piafar los potros en su sangre;</l>
+            <l>ven, claro viento, pluma, garza, mía,</l>
+            <l>con sus trenzas de ríos a la espalda;<subst>
+               <del rend="corrected">sus</del>
+               <add place="margin">tus</add>
+            </subst></l>
+         </lg>
+            <lg>
+            <l>ven, paloma salvaje, fiera rosa,</l>
+            <l>perfume desplegado, sien de oro;</l>
+            </lg>
+            </div>
+         <div>
+            <fw type="pageNumber" place="above">122</fw>
+            <lg>
+               <l>ven con tus olas de jazmín y aceite</l>
+               <l>y el tiempo hecho dulzura en los panales;</l>
+               <l>ven con los capitanes que te siguen</l>
+               <l>con el azul al cuello de los sueños,</l>
+               <l>y, en torno, tus jinetes desbandados;</l>
+               <l>ven con tu litoral en donde amarra</l>
+               <l>sus vagos transatlánticos la tarde;</l>
+               <l>ven oveja celeste en pie de amor,</l>
+               <l>ven con  tu leche, trae tu molino</l>
+               <l>donde mueles la harina de la luna;</l>
+               <l>ven con tus caracoles y tus flechas</l>
+               <l>y tus ríos falderos: el Ariari,</l>
+               <l>como un labio feliz lleno de estrellas,</l>
+               <l>el vichada de luna desbordada</l>
+               <l>y el Meta, boca azul de la frescura;</l>
+               <l>ven a mí, cantandor y nadador</l>
+               <l>que ha cortado los ríos con su pecho;</l>
+               <l>ven con la luz que unánime te aclama,</l>
+               <l>con el arroz nupcial, la palma súbita,</l>
+               <l>con las mínimas lunas del naranjo,</l>
+            </lg>
+         </div>
       </body>
-      <body>
-         <div>
-            <head>OATMEAL BREAD</head>
-            <list>
-               <item>2 cups oatmeal</item>
-               <item>1 large spoonful lard</item>
-               <item>1 cup dark molasses</item>
-               <item>1 1/2 cups hot water</item>
-               <item>2 cups cold water</item>
-               <item>1 yeast cake</item>
-               <item>White flour enough to make soft dough</item>
-            </list>
-            <quote>MISS LOTHROP</quote>
-         </div>
-         <div>
-            <head>OATMEAL CAKE
-            </head>
-            <list>
-               <item>1 cup oatmeal</item>
-               <item>2 cups boiling water</item>
-               <item>2 teaspoons butter</item>
-               <item>1/2 cup molasses</item>
-               <item>Let these soak together for one hour</item>
-               <item>Mix 1 yeast cake in 1/2 cup luke warm water and add to first mixture</item>
-               <item>4 1/2 cups of flour sifted and added</item>
-               <item>Let it raise and bake</item>
-            </list>
-         </div>
-         <div>
-            <head>BRAN BREAD</head>
-            <list>
-               <item>5 cups whole what flour</item>
-               <item>4 cups Educator bran</item>
-               <item>2 1/2 cups molasses</item>
-               <item>2 1/2 cups milk</item>
-               <item>1 teaspoonful of salt</item>
-               <item>1 teaspoonful soda</item>
-               <item>Bake in moderate oven</item>
-            </list>
-         </div>
-      </body>
-  </text>
+   </text>
 </TEI>
